@@ -33,6 +33,7 @@
 
 .who-img-text-part {
   position: relative;
+  padding-top: 22px;
 
 
 }
@@ -269,7 +270,7 @@ button {
 .modal-content.nav-modal {
   background-color: transparent;
   border: none;
-  width: 120%;
+
 }
 
 .nav-modal-body {
@@ -485,7 +486,7 @@ a {
 }
 
 .img-below-heading {
-  top: 78%;
+  bottom: 0;
   width: 100%;
   /* margin-top: 10px; */
   display: flex;
