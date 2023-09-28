@@ -1,19 +1,40 @@
 <nav class="p-5    ">
     <div class="d-flex justify-content-end align-items-start">
-        <button class="back-btn me-5">
+        <button class="back-btn me-5 d-flex align-items-start">
             <img class="bck-arw" src="assets/img/arrows.svg" alt="">
             BACK
         </button>
-        <button class="nav-btn  me-5">
+        <button class="nav-btn  me-5" data-bs-toggle="modal" data-bs-target="#exampleModal1">
             <i class="fa-solid fa-bars fa-xl" style="color: white;"></i>
         </button>
 
-        <a href="#">
-            <img class="petronas-logo " src="assets/img/petronas_arabic_logo_1.png">
-        </a>
-      
-       
+
+
     </div>
-   
-    
+
+
 </nav>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content nav-modal">
+
+            <div class="modal-body nav-modal-body p-5 text-center">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="main-page-nav pb-4">
+                    MAIN PAGE
+
+                </div>
+                <hr class="bottom-line">
+                <a href="who-we-are.html" class="sub-heading-nav  ">WHO WE ARE</a>
+                <hr class="bottom-line">
+                <a href="who-we-are.html" class="sub-heading-nav">WHAT WE ARE DOING</a>
+                <hr class="bottom-line ">
+                <a href="" class="sub-heading-nav">HOW WE ARE DOING IT</a>
+                <hr class="bottom-line">
+                <a href="" class="sub-heading-nav">WHY US</a>
+            </div>
+
+        </div>
+    </div>
+</div>
