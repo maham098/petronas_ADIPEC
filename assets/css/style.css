@@ -292,6 +292,15 @@ button {
   background-color: #00A19C;
 }
 
+.heading-carbo-css span{
+
+  
+  font-family: "mouseo-bold";
+  
+  font-size: 30px;
+ 
+}
+
 .heading-carbo-2 {
   text-align: start;
   display: flex;
@@ -635,7 +644,7 @@ a {
   font-size: 25px;
   height: 88px;
   margin: auto;
-  background: linear-gradient(90deg, #00A19C 0%, #20419A 51.28%, #763F98 97.48%);
+  background-color:  #00A19C;
   border-radius: 50px 0px;
   position: absolute;
 }
